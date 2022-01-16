@@ -386,8 +386,7 @@
                 "caching"
             ],
             "time": "2017-07-22T12:49:21+00:00"
-        },
-        {
+        },        {
             "name": "doctrine/collections",
             "version": "v1.5.0",
             "source": {
@@ -1264,45 +1263,6 @@
             "time": "2017-12-17T02:57:51+00:00"
         },
         {
-            "name": "dropbox/dropbox-sdk",
-            "version": "v1.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dropbox/dropbox-sdk-php.git",
-                "reference": "0f1a178ca9c0271bca6426dde8f5a2241578deae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dropbox/dropbox-sdk-php/zipball/0f1a178ca9c0271bca6426dde8f5a2241578deae",
-                "reference": "0f1a178ca9c0271bca6426dde8f5a2241578deae",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">= 5.3"
-            },
-            "require-dev": {
-                "apigen/apigen": "4.1.2",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "2.0.0RC3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Dropbox": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Dropbox SDK for PHP",
-            "keywords": [
-                "dropbox"
-            ],
-            "time": "2016-08-08T23:48:49+00:00"
-        },
-        {
             "name": "egeloen/ordered-form",
             "version": "3.0.0",
             "source": {
@@ -1320,7 +1280,7 @@
                 "php": "^5.6|^7.0",
                 "symfony/form": "^2.7|^3.0"
             },
-            "require-dev": {
+            "require-dev": {                
                 "phpunit/phpunit": "^5.0",
                 "symfony/phpunit-bridge": "^2.7|^3.0"
             },
@@ -1372,7 +1332,7 @@
                 "php": "^5.6|^7.0",
                 "symfony/framework-bundle": "^2.7|^3.0"
             },
-            "require-dev": {
+            "require-dev": {                
                 "phpunit/phpunit": "^5.0",
                 "symfony/phpunit-bridge": "^2.7|^3.0"
             },
@@ -1403,89 +1363,6 @@
                 "order"
             ],
             "time": "2017-02-27T21:30:37+00:00"
-        },
-        {
-            "name": "facebook/php-business-sdk",
-            "version": "4.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facebook/facebook-php-business-sdk.git",
-                "reference": "741a0273e8e810a3ad7461461f02b58c77596044"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-business-sdk/zipball/741a0273e8e810a3ad7461461f02b58c77596044",
-                "reference": "741a0273e8e810a3ad7461461f02b58c77596044",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.6",
-                "symfony/finder": "~2.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FacebookAds\\": "src/FacebookAds/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "PHP SDK for Facebook Business",
-            "homepage": "https://developers.facebook.com/",
-            "keywords": [
-                "ads",
-                "business",
-                "facebook",
-                "instagram",
-                "page",
-                "sdk"
-            ],
-            "time": "2019-08-21T00:19:49+00:00"
-        },
-        {
-            "name": "firebase/php-jwt",
-            "version": "v5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": " 4.8.35"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Firebase\\JWT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2017-06-27T22:17:23+00:00"
         },
         {
             "name": "friendsofsymfony/oauth-server-bundle",
@@ -1720,7 +1597,7 @@
                 "maxmind/web-service-common": "~0.5",
                 "php": ">=5.4"
             },
-            "require-dev": {
+            "require-dev": {                
                 "phpunit/phpunit": "4.*",
                 "squizlabs/php_codesniffer": "3.*"
             },
@@ -1868,106 +1745,6 @@
             ],
             "description": "Locale functions required by libphonenumber-for-php",
             "time": "2018-10-18T07:17:52+00:00"
-        },
-        {
-            "name": "google/auth",
-            "version": "v1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "196237248e636a3554a7d9e4dfddeb97f450ab5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/196237248e636a3554a7d9e4dfddeb97f450ab5c",
-                "reference": "196237248e636a3554a7d9e4dfddeb97f450ab5c",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
-                "guzzlehttp/guzzle": "~5.3.1|~6.0",
-                "guzzlehttp/psr7": "^1.2",
-                "php": ">=5.4",
-                "psr/cache": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/promises": "0.1.1|^1.3",
-                "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\Auth\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Google Auth Library for PHP",
-            "homepage": "http://github.com/google/google-auth-library-php",
-            "keywords": [
-                "Authentication",
-                "google",
-                "oauth2"
-            ],
-            "time": "2018-09-17T20:29:21+00:00"
-        },
-        {
-            "name": "googleads/googleads-php-lib",
-            "version": "38.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleads/googleads-php-lib.git",
-                "reference": "04fda7fd0fe004654b9a4cff7b7541897f6477b0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleads/googleads-php-lib/zipball/04fda7fd0fe004654b9a4cff7b7541897f6477b0",
-                "reference": "04fda7fd0fe004654b9a4cff7b7541897f6477b0",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "ext-openssl": "*",
-                "ext-soap": "*",
-                "google/auth": "^1.0.0",
-                "guzzlehttp/guzzle": "^6.0",
-                "guzzlehttp/psr7": "^1.2",
-                "monolog/monolog": "^1.17.1",
-                "php": ">=5.5.9",
-                "phpdocumentor/reflection-docblock": "^4.0.0 || ^3.0.3",
-                "symfony/serializer": "^2.8.0 || ^3.0.3 || ^4.0.0"
-            },
-            "require-dev": {
-                "php": ">=5.5.17",
-                "phpunit/phpunit": "^4.8.35 || ^5.7",
-                "squizlabs/php_codesniffer": "^2.9 || ^3.2"
-            },
-            "suggest": {
-                "php-64bit": ">=5.5.9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\AdsApi\\": "src/Google/AdsApi/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Google",
-                    "homepage": "https://github.com/googleads/googleads-php-lib/contributors"
-                }
-            ],
-            "description": "Google Ads APIs Client Library for PHP (AdWords and Ad Manager)",
-            "homepage": "https://github.com/googleads/googleads-php-lib",
-            "time": "2018-11-16T17:39:25+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -3105,226 +2882,6 @@
             "time": "2017-12-24T16:32:39+00:00"
         },
         {
-            "name": "league/flysystem",
-            "version": "1.0.50",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "dab4e7624efa543a943be978008f439c333f2249"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dab4e7624efa543a943be978008f439c333f2249",
-                "reference": "dab4e7624efa543a943be978008f439c333f2249",
-                "shasum": ""
-            },
-            "require": {
-                "ext-fileinfo": "*",
-                "php": ">=5.5.9"
-            },
-            "conflict": {
-                "league/flysystem-sftp": "<1.0.6"
-            },
-            "require-dev": {
-                "phpspec/phpspec": "^3.4",
-                "phpunit/phpunit": "^5.7.10"
-            },
-            "suggest": {
-                "ext-fileinfo": "Required for MimeType",
-                "ext-ftp": "Allows you to use FTP server storage",
-                "ext-openssl": "Allows you to use FTPS server storage",
-                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
-                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
-                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
-                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
-                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
-                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
-                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
-                "league/flysystem-webdav": "Allows you to use WebDAV storage",
-                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter",
-                "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
-                "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Filesystem abstraction: Many filesystems, one API.",
-            "keywords": [
-                "Cloud Files",
-                "WebDAV",
-                "abstraction",
-                "aws",
-                "cloud",
-                "copy.com",
-                "dropbox",
-                "file systems",
-                "files",
-                "filesystem",
-                "filesystems",
-                "ftp",
-                "rackspace",
-                "remote",
-                "s3",
-                "sftp",
-                "storage"
-            ],
-            "time": "2019-02-01T08:50:36+00:00"
-        },
-        {
-            "name": "league/flysystem-aws-s3-v3",
-            "version": "1.0.22",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/883b02c80ca9cd68cf58a9b4b2185beef24b836b",
-                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b",
-                "shasum": ""
-            },
-            "require": {
-                "aws/aws-sdk-php": "^3.0.0",
-                "league/flysystem": "^1.0.40",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "henrikbjorn/phpspec-code-coverage": "~1.0.1",
-                "phpspec/phpspec": "^2.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\AwsS3v3\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Flysystem adapter for the AWS S3 SDK v3.x",
-            "time": "2019-01-31T15:07:25+00:00"
-        },
-        {
-            "name": "league/flysystem-dropbox",
-            "version": "1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-dropbox.git",
-                "reference": "939f91ca00d0255d9b3aa313e191480d00f09382"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-dropbox/zipball/939f91ca00d0255d9b3aa313e191480d00f09382",
-                "reference": "939f91ca00d0255d9b3aa313e191480d00f09382",
-                "shasum": ""
-            },
-            "require": {
-                "dropbox/dropbox-sdk": "~1.1",
-                "league/flysystem": "~1.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\Dropbox\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Flysystem adapter for Dropbox",
-            "abandoned": "spatie/flysystem-dropbox",
-            "time": "2016-04-25T18:51:39+00:00"
-        },
-        {
-            "name": "league/flysystem-sftp",
-            "version": "1.0.18",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thephpleague/flysystem-sftp.git",
-                "reference": "61bc5a6ade892b5ac81e62b8c21be2c1798acc2a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp/zipball/61bc5a6ade892b5ac81e62b8c21be2c1798acc2a",
-                "reference": "61bc5a6ade892b5ac81e62b8c21be2c1798acc2a",
-                "shasum": ""
-            },
-            "require": {
-                "league/flysystem": "~1.0",
-                "php": ">=5.6.0",
-                "phpseclib/phpseclib": "~2.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "^5.7.25"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "League\\Flysystem\\Sftp\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Frank de Jonge",
-                    "email": "info@frenky.net"
-                }
-            ],
-            "description": "Flysystem adapter for SFTP",
-            "time": "2019-01-07T11:56:21+00:00"
-        },
-        {
             "name": "leezy/pheanstalk-bundle",
             "version": "3.3.0",
             "source": {
@@ -3551,41 +3108,6 @@
             "time": "2018-05-23T08:11:59+00:00"
         },
         {
-            "name": "mautic/composer-plugin",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mautic/composer-plugin.git",
-                "reference": "27d2474ae8e39d30d28908d6f818e71fe32b8443"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mautic/composer-plugin/zipball/27d2474ae8e39d30d28908d6f818e71fe32b8443",
-                "reference": "27d2474ae8e39d30d28908d6f818e71fe32b8443",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.5"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Mautic\\Composer\\InstallerPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Mautic\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2017-12-10T22:16:22+00:00"
-        },
-        {
             "name": "mautic/core",
             "version": "dev-master",
             "source": {
@@ -3617,7 +3139,7 @@
             "require": {
                 "php": ">=5.4"
             },
-            "require-dev": {
+            "require-dev": {                
                 "phpunit/phpunit": "4.* || 5.*",
                 "satooshi/php-coveralls": "1.0.*",
                 "squizlabs/php_codesniffer": "3.*"
@@ -3675,7 +3197,7 @@
                 "ext-json": "*",
                 "php": ">=5.4"
             },
-            "require-dev": {
+            "require-dev": {                
                 "phpunit/phpunit": "4.*",
                 "squizlabs/php_codesniffer": "3.*"
             },
@@ -3699,57 +3221,6 @@
             "description": "Internal MaxMind Web Service API",
             "homepage": "https://github.com/maxmind/web-service-common-php",
             "time": "2018-02-12T22:31:54+00:00"
-        },
-        {
-            "name": "microsoft/bingads",
-            "version": "v0.12.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/BingAds/BingAds-PHP-SDK.git",
-                "reference": "dc5c8fb9f9390ab14c102fdff68cb7592091b55c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/BingAds/BingAds-PHP-SDK/zipball/dc5c8fb9f9390ab14c102fdff68cb7592091b55c",
-                "reference": "dc5c8fb9f9390ab14c102fdff68cb7592091b55c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-openssl": "*",
-                "ext-soap": "*",
-                "php": ">=5.6"
-            },
-            "require-dev": {
-                "ext-curl": "*",
-                "ext-openssl": "*",
-                "ext-soap": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Microsoft\\BingAds\\": "/src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Microsoft",
-                    "homepage": "https://github.com/BingAds/BingAds-PHP-SDK/graphs/contributors"
-                }
-            ],
-            "description": "This project provides a set of PHP client libraries that make it easy to access Bing Ads service APIs.",
-            "homepage": "https://github.com/BingAds/BingAds-PHP-SDK",
-            "keywords": [
-                "bing ads",
-                "bingads",
-                "php",
-                "sdk"
-            ],
-            "time": "2018-12-10T14:28:43+00:00"
         },
         {
             "name": "misd/phone-number-bundle",
@@ -4047,51 +3518,6 @@
             "time": "2016-12-03T22:08:25+00:00"
         },
         {
-            "name": "mustache/mustache",
-            "version": "v2.12.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7|~4.0|~5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Mustache": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
-                }
-            ],
-            "description": "A Mustache implementation in PHP.",
-            "homepage": "https://github.com/bobthecow/mustache.php",
-            "keywords": [
-                "mustache",
-                "templating"
-            ],
-            "time": "2017-07-11T12:54:05+00:00"
-        },
-        {
             "name": "mustangostang/spyc",
             "version": "0.6.2",
             "source": {
@@ -4140,56 +3566,6 @@
                 "yml"
             ],
             "time": "2017-02-24T16:06:33+00:00"
-        },
-        {
-            "name": "namshi/cuzzle",
-            "version": "2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/namshi/cuzzle.git",
-                "reference": "89849bb9c729a3d8aabf94c0b66e77c7df38abda"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/namshi/cuzzle/zipball/89849bb9c729a3d8aabf94c0b66e77c7df38abda",
-                "reference": "89849bb9c729a3d8aabf94c0b66e77c7df38abda",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.0",
-                "php": ">=5.5.0",
-                "psr/log": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.2.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Namshi\\Cuzzle\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Nefedov",
-                    "email": "inefedor@gmail.com"
-                },
-                {
-                    "name": "cirpo",
-                    "email": "alessandro.cinelli@gmail.com"
-                }
-            ],
-            "description": "Get the cURL shell command from a Guzzle request",
-            "time": "2016-11-23T08:01:36+00:00"
         },
         {
             "name": "noxlogic/ratelimit-bundle",
@@ -4967,158 +4343,6 @@
             "time": "2015-05-17T12:39:23+00:00"
         },
         {
-            "name": "phpdocumentor/reflection-common",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
-                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jaap van Otterdijk",
-                    "email": "opensource@ijaap.nl"
-                }
-            ],
-            "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
-            "homepage": "http://www.phpdoc.org",
-            "keywords": [
-                "FQSEN",
-                "phpDocumentor",
-                "phpdoc",
-                "reflection",
-                "static analysis"
-            ],
-            "time": "2017-09-11T18:02:19+00:00"
-        },
-        {
-            "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "94fd0001232e47129dd3504189fa1c7225010d08"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/94fd0001232e47129dd3504189fa1c7225010d08",
-                "reference": "94fd0001232e47129dd3504189fa1c7225010d08",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0",
-                "phpdocumentor/reflection-common": "^1.0.0",
-                "phpdocumentor/type-resolver": "^0.4.0",
-                "webmozart/assert": "^1.0"
-            },
-            "require-dev": {
-                "doctrine/instantiator": "~1.0.5",
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.4"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mike van Riel",
-                    "email": "me@mikevanriel.com"
-                }
-            ],
-            "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2017-11-30T07:14:17+00:00"
-        },
-        {
-            "name": "phpdocumentor/type-resolver",
-            "version": "0.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
-                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5 || ^7.0",
-                "phpdocumentor/reflection-common": "^1.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "^5.2||^4.8.24"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "phpDocumentor\\Reflection\\": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mike van Riel",
-                    "email": "me@mikevanriel.com"
-                }
-            ],
-            "time": "2017-07-14T14:27:02+00:00"
-        },
-        {
             "name": "phpoffice/phpexcel",
             "version": "1.8.1",
             "source": {
@@ -5225,98 +4449,6 @@
                 "type"
             ],
             "time": "2015-07-25T16:39:46+00:00"
-        },
-        {
-            "name": "phpseclib/phpseclib",
-            "version": "2.0.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8ebfcadbf30524aeb75b2c446bc2519d5b321478",
-                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "suggest": {
-                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
-                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
-                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
-                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "phpseclib/bootstrap.php"
-                ],
-                "psr-4": {
-                    "phpseclib\\": "phpseclib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jim Wigginton",
-                    "email": "terrafrost@php.net",
-                    "role": "Lead Developer"
-                },
-                {
-                    "name": "Patrick Monnerat",
-                    "email": "pm@datasphere.ch",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Andreas Fischer",
-                    "email": "bantu@phpbb.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Hans-Jürgen Petrich",
-                    "email": "petrich@tronic-media.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Graham Campbell",
-                    "email": "graham@alt-three.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
-            "homepage": "http://phpseclib.sourceforge.net",
-            "keywords": [
-                "BigInteger",
-                "aes",
-                "asn.1",
-                "asn1",
-                "blowfish",
-                "crypto",
-                "cryptography",
-                "encryption",
-                "rsa",
-                "security",
-                "sftp",
-                "signature",
-                "signing",
-                "ssh",
-                "twofish",
-                "x.509",
-                "x509"
-            ],
-            "time": "2019-01-27T19:37:29+00:00"
         },
         {
             "name": "piwik/device-detector",
@@ -8717,80 +7849,6 @@
             "time": "2018-11-11T11:18:13+00:00"
         },
         {
-            "name": "symfony/serializer",
-            "version": "v3.1.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/serializer.git",
-                "reference": "f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad",
-                "reference": "f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.9"
-            },
-            "conflict": {
-                "symfony/property-access": ">=3.0,<3.0.4|>=2.8,<2.8.4",
-                "symfony/property-info": "<3.1"
-            },
-            "require-dev": {
-                "doctrine/annotations": "~1.0",
-                "doctrine/cache": "~1.0",
-                "phpdocumentor/reflection-docblock": "~3.0",
-                "symfony/cache": "~3.1",
-                "symfony/config": "~2.8|~3.0",
-                "symfony/http-foundation": "~2.8|~3.0",
-                "symfony/property-access": "~2.8|~3.0",
-                "symfony/property-info": "~3.1",
-                "symfony/yaml": "~2.8|~3.0"
-            },
-            "suggest": {
-                "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
-                "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
-                "psr/cache-implementation": "For using the metadata cache.",
-                "symfony/config": "For using the XML mapping loader.",
-                "symfony/http-foundation": "To use the DataUriNormalizer.",
-                "symfony/property-access": "For using the ObjectNormalizer.",
-                "symfony/property-info": "To deserialize relations.",
-                "symfony/yaml": "For using the default YAML mapping loader."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\Serializer\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony Serializer Component",
-            "homepage": "https://symfony.com",
-            "time": "2017-01-24T12:51:25+00:00"
-        },
-        {
             "name": "symfony/stopwatch",
             "version": "v2.8.49",
             "source": {
@@ -9291,567 +8349,6 @@
             "time": "2018-11-11T11:18:13+00:00"
         },
         {
-            "name": "thedmsgroup/mautic-api-services-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-api-services.git",
-                "reference": "7d89a36ba43c99d921f8f9184240dd3bb19ec236"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-api-services/zipball/7d89a36ba43c99d921f8f9184240dd3bb19ec236",
-                "reference": "7d89a36ba43c99d921f8f9184240dd3bb19ec236",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Scott Shipman",
-                    "email": "scottshipmang@gmail.com"
-                }
-            ],
-            "description": "Extends Mautic API for configurable service calls.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-05-20T16:08:51+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-campaign-watch-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-campaign-watch.git",
-                "reference": "1b582c8516bdb10f725bec6131a1cdc89ad321d1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-campaign-watch/zipball/1b582c8516bdb10f725bec6131a1cdc89ad321d1",
-                "reference": "1b582c8516bdb10f725bec6131a1cdc89ad321d1",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Visual improvements for campaigns.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-06-18T17:57:24+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-contact-client-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-contact-client.git",
-                "reference": "ac3a984af615e36167520feb64f1565deaaaa29f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-client/zipball/ac3a984af615e36167520feb64f1565deaaaa29f",
-                "reference": "ac3a984af615e36167520feb64f1565deaaaa29f",
-                "shasum": ""
-            },
-            "require": {
-                "league/flysystem": "^1.0",
-                "league/flysystem-aws-s3-v3": "^1.0",
-                "league/flysystem-dropbox": "^1.0",
-                "league/flysystem-sftp": "^1.0",
-                "mautic/composer-plugin": "^1.0",
-                "mustache/mustache": "^2.12",
-                "namshi/cuzzle": "^2.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Create custom integrations without writing code.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-10-29T16:24:17+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-contact-ledger-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-contact-ledger.git",
-                "reference": "3b6b586c33e792be6ec08e4cd7b420c6660c1a7a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-ledger/zipball/3b6b586c33e792be6ec08e4cd7b420c6660c1a7a",
-                "reference": "3b6b586c33e792be6ec08e4cd7b420c6660c1a7a",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholai Bush",
-                    "email": "nicholaibush@yahoo.com"
-                }
-            ],
-            "description": "Historical accounting for contacts",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-08-27T18:43:10+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-contact-source-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-contact-source.git",
-                "reference": "d94a2ab645dd15326338025c655fb6972460e4c6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-source/zipball/d94a2ab645dd15326338025c655fb6972460e4c6",
-                "reference": "d94a2ab645dd15326338025c655fb6972460e4c6",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Creates API endpoints for receiving contacts from external sources.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-09-03T19:37:48+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-dashboard-warm-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-dashboard-warm.git",
-                "reference": "93b6f8b281714e15473e9868b59f4d1f02cfc802"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-dashboard-warm/zipball/93b6f8b281714e15473e9868b59f4d1f02cfc802",
-                "reference": "93b6f8b281714e15473e9868b59f4d1f02cfc802",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Improves the performance of the dashboard by sharing/extending/warming caches.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-05-20T16:08:38+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-do-not-contact-extras-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-dnc-extras.git",
-                "reference": "a5985335a4e7624e9a1d42abb7f84b05d41a9d7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-dnc-extras/zipball/a5985335a4e7624e9a1d42abb7f84b05d41a9d7f",
-                "reference": "a5985335a4e7624e9a1d42abb7f84b05d41a9d7f",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Scott Shipman",
-                    "email": "k.scott.shipman@gmail.com"
-                }
-            ],
-            "description": "Adds custom DNC list items to be added to standard Mautic DNC lists and creates phpne and sms channels",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-05-24T21:56:27+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-eb-custom",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thedmsgroup/mautic-eb-custom.git",
-                "reference": "2.15.0"
-            },
-            "require": {
-                "mnsami/composer-custom-directory-installer": "1.1.*"
-            },
-            "type": "library",
-            "time": "2019-02-28T19:49:31+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-enhancer-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-enhancer.git",
-                "reference": "cca5709ce2ebf605a3fc833327e089ec401680d7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-enhancer/zipball/cca5709ce2ebf605a3fc833327e089ec401680d7",
-                "reference": "cca5709ce2ebf605a3fc833327e089ec401680d7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-json": "*",
-                "ext-simplexml": "*",
-                "league/flysystem": "^1.0",
-                "league/flysystem-sftp": "^1.0",
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholai Bush",
-                    "email": "nicholaibush@yahoo.com"
-                },
-                {
-                    "name": "Scott Shipman",
-                    "email": "K.scott.shipman@gmail.com"
-                }
-            ],
-            "description": "Various contact enhancer integrations for Mautic.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-10-09T16:37:48+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-extended-field-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-extended-field.git",
-                "reference": "7ff772bb78ce264d5e3f569fd79e330c834773ea"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-extended-field/zipball/7ff772bb78ce264d5e3f569fd79e330c834773ea",
-                "reference": "7ff772bb78ce264d5e3f569fd79e330c834773ea",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholai Bush",
-                    "email": "nicholaibush@yahoo.com"
-                },
-                {
-                    "name": "Scott Shipman",
-                    "email": "K.scott.shipman@gmail.com"
-                },
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Extends custom fields for scalability and HIPAA/PCI compliance.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-08-27T17:35:08+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-health-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-health.git",
-                "reference": "77000a9fa9d0761aab919d159063b157102f3300"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-health/zipball/77000a9fa9d0761aab919d159063b157102f3300",
-                "reference": "77000a9fa9d0761aab919d159063b157102f3300",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Checks the health of the Mautic instance.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-08-26T20:44:26+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-media-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-media.git",
-                "reference": "bbe2f57cf456a6c32c8786c4f2ab495c87550a18"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-media/zipball/bbe2f57cf456a6c32c8786c4f2ab495c87550a18",
-                "reference": "bbe2f57cf456a6c32c8786c4f2ab495c87550a18",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "ext-soap": "*",
-                "facebook/php-business-sdk": "*",
-                "googleads/googleads-php-lib": "^38.0",
-                "mautic/composer-plugin": "^1.0",
-                "microsoft/bingads": "v0.12.0.2"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Heath Dutton",
-                    "email": "heathdutton@gmail.com"
-                }
-            ],
-            "description": "Pulls cost data from media advertising services.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-08-27T18:51:43+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-revenue-event-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-revenue-event.git",
-                "reference": "917a692921a39fcbf2b5bf9782156dc484631ae2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-revenue-event/zipball/917a692921a39fcbf2b5bf9782156dc484631ae2",
-                "reference": "917a692921a39fcbf2b5bf9782156dc484631ae2",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "wwatson",
-                    "email": "wwatson@thedmsgrp.com"
-                }
-            ],
-            "description": "Send Attribution/Revenue Events to W4 Conversion Tracker",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-06-26T19:49:43+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-segment-extras-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-segment-extras.git",
-                "reference": "42566b9a317da3c985f73f8e0a582e226caf37ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-segment-extras/zipball/42566b9a317da3c985f73f8e0a582e226caf37ba",
-                "reference": "42566b9a317da3c985f73f8e0a582e226caf37ba",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Scott Shipman",
-                    "email": "scottshipmang@gmail.com"
-                }
-            ],
-            "description": "Extends Mautic Lead Bundle's Lead List (Segment) functionality.",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-07-09T16:08:28+00:00"
-        },
-        {
-            "name": "thedmsgroup/mautic-usstate-normalizer-bundle",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TheDMSGroup/mautic-usstate-normalizer.git",
-                "reference": "bd52261dd1843d823f5d6acd736c4273df0df51d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TheDMSGroup/mautic-usstate-normalizer/zipball/bd52261dd1843d823f5d6acd736c4273df0df51d",
-                "reference": "bd52261dd1843d823f5d6acd736c4273df0df51d",
-                "shasum": ""
-            },
-            "require": {
-                "mautic/composer-plugin": "^1.0"
-            },
-            "type": "mautic-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholai Bush",
-                    "email": "nicholaibush@yahoo.com"
-                }
-            ],
-            "description": "Normalize US States to their abbreviations",
-            "keywords": [
-                "Marketing Automation",
-                "Mautic",
-                "marketing",
-                "plugin"
-            ],
-            "time": "2019-05-28T13:00:07+00:00"
-        },
-        {
             "name": "twig/twig",
             "version": "v1.35.0",
             "source": {
@@ -9965,96 +8462,6 @@
                 "twilio"
             ],
             "time": "2017-11-17T22:59:03+00:00"
-        },
-        {
-            "name": "webmozart/assert",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
-                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.3 || ^7.0",
-                "symfony/polyfill-ctype": "^1.8"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.6",
-                "sebastian/version": "^1.0.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Webmozart\\Assert\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@gmail.com"
-                }
-            ],
-            "description": "Assertions to validate method input/output with nice error messages.",
-            "keywords": [
-                "assert",
-                "check",
-                "validate"
-            ],
-            "time": "2018-12-25T11:19:39+00:00"
-        },
-        {
-            "name": "westonwatson/datescan",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/westonwatson/datescan.git",
-                "reference": "66f6f9a01c7e8a01d60b11b5c7a96c4e6cb153b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/westonwatson/datescan/zipball/66f6f9a01c7e8a01d60b11b5c7a96c4e6cb153b9",
-                "reference": "66f6f9a01c7e8a01d60b11b5c7a96c4e6cb153b9",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.7.27"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "": "src/"
-                },
-                "psr-4": {
-                    "westonwatson\\Datescan\\": "src/Datescan"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "westonwatson",
-                    "email": "wwatson@thedmsgrp.com"
-                }
-            ],
-            "description": "Recognize and parse multiple date/time formats.",
-            "time": "2019-06-20T19:41:50+00:00"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
@@ -10626,6 +9033,82 @@
             "time": "2019-01-28T20:25:53+00:00"
         },
         {
+            "name": "dropbox/dropbox-sdk",
+            "version": "v1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dropbox/dropbox-sdk-php.git",
+                "reference": "0f1a178ca9c0271bca6426dde8f5a2241578deae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dropbox/dropbox-sdk-php/zipball/0f1a178ca9c0271bca6426dde8f5a2241578deae",
+                "reference": "0f1a178ca9c0271bca6426dde8f5a2241578deae",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">= 5.3"
+            },
+            "require-dev": {
+                "apigen/apigen": "4.1.2",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "2.0.0RC3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dropbox": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Dropbox SDK for PHP",
+            "keywords": [
+                "dropbox"
+            ],
+            "time": "2016-08-08T23:48:49+00:00"
+        },
+        {
+            "name": "facebook/php-business-sdk",
+            "version": "3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-php-business-sdk.git",
+                "reference": "7a8bd28eead86a94028287a13dac83c91646eee8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-php-business-sdk/zipball/7a8bd28eead86a94028287a13dac83c91646eee8",
+                "reference": "7a8bd28eead86a94028287a13dac83c91646eee8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6",
+                "symfony/finder": "~2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FacebookAds\\": "src/FacebookAds/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "PHP SDK for Facebook Business",
+            "homepage": "https://developers.facebook.com/",
+            "keywords": [
+                "ads",
+                "business",
+                "facebook",
+                "instagram",
+                "page",
+                "sdk"
+            ],
+            "time": "2019-01-29T21:33:49+00:00"
+        },
+        {
             "name": "facebook/webdriver",
             "version": "1.6.0",
             "source": {
@@ -10647,7 +9130,7 @@
                 "php": "^5.6 || ~7.0",
                 "symfony/process": "^2.8 || ^3.1 || ^4.0"
             },
-            "require-dev": {
+            "require-dev": {                
                 "jakub-onderka/php-parallel-lint": "^0.9.2",
                 "php-coveralls/php-coveralls": "^2.0",
                 "php-mock/php-mock-phpunit": "^1.1",
@@ -10683,7 +9166,373 @@
                 "webdriver"
             ],
             "time": "2018-05-16T17:37:13+00:00"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": " 4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "time": "2017-06-27T22:17:23+00:00"
         },        
+        {
+            "name": "google/auth",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleapis/google-auth-library-php.git",
+                "reference": "196237248e636a3554a7d9e4dfddeb97f450ab5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/196237248e636a3554a7d9e4dfddeb97f450ab5c",
+                "reference": "196237248e636a3554a7d9e4dfddeb97f450ab5c",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
+                "guzzlehttp/guzzle": "~5.3.1|~6.0",
+                "guzzlehttp/psr7": "^1.2",
+                "php": ">=5.4",
+                "psr/cache": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "guzzlehttp/promises": "0.1.1|^1.3",
+                "phpunit/phpunit": "^4.8.36|^5.7",
+                "sebastian/comparator": ">=1.2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Google\\Auth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Google Auth Library for PHP",
+            "homepage": "http://github.com/google/google-auth-library-php",
+            "keywords": [
+                "Authentication",
+                "google",
+                "oauth2"
+            ],
+            "time": "2018-09-17T20:29:21+00:00"
+        },
+        {
+            "name": "googleads/googleads-php-lib",
+            "version": "38.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/googleads/googleads-php-lib.git",
+                "reference": "04fda7fd0fe004654b9a4cff7b7541897f6477b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/googleads/googleads-php-lib/zipball/04fda7fd0fe004654b9a4cff7b7541897f6477b0",
+                "reference": "04fda7fd0fe004654b9a4cff7b7541897f6477b0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-soap": "*",
+                "google/auth": "^1.0.0",
+                "guzzlehttp/guzzle": "^6.0",
+                "guzzlehttp/psr7": "^1.2",
+                "monolog/monolog": "^1.17.1",
+                "php": ">=5.5.9",
+                "phpdocumentor/reflection-docblock": "^4.0.0 || ^3.0.3",
+                "symfony/serializer": "^2.8.0 || ^3.0.3 || ^4.0.0"
+            },
+            "require-dev": {
+                "php": ">=5.5.17",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "squizlabs/php_codesniffer": "^2.9 || ^3.2"
+            },
+            "suggest": {
+                "php-64bit": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Google\\AdsApi\\": "src/Google/AdsApi/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Google",
+                    "homepage": "https://github.com/googleads/googleads-php-lib/contributors"
+                }
+            ],
+            "description": "Google Ads APIs Client Library for PHP (AdWords and Ad Manager)",
+            "homepage": "https://github.com/googleads/googleads-php-lib",
+            "time": "2018-11-16T17:39:25+00:00"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "1.0.50",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "dab4e7624efa543a943be978008f439c333f2249"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dab4e7624efa543a943be978008f439c333f2249",
+                "reference": "dab4e7624efa543a943be978008f439c333f2249",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "php": ">=5.5.9"
+            },
+            "conflict": {
+                "league/flysystem-sftp": "<1.0.6"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^3.4",
+                "phpunit/phpunit": "^5.7.10"
+            },
+            "suggest": {
+                "ext-fileinfo": "Required for MimeType",
+                "ext-ftp": "Allows you to use FTP server storage",
+                "ext-openssl": "Allows you to use FTPS server storage",
+                "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
+                "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
+                "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
+                "league/flysystem-cached-adapter": "Flysystem adapter decorator for metadata caching",
+                "league/flysystem-eventable-filesystem": "Allows you to use EventableFilesystem",
+                "league/flysystem-rackspace": "Allows you to use Rackspace Cloud Files",
+                "league/flysystem-sftp": "Allows you to use SFTP server storage via phpseclib",
+                "league/flysystem-webdav": "Allows you to use WebDAV storage",
+                "league/flysystem-ziparchive": "Allows you to use ZipArchive adapter",
+                "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
+                "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Filesystem abstraction: Many filesystems, one API.",
+            "keywords": [
+                "Cloud Files",
+                "WebDAV",
+                "abstraction",
+                "aws",
+                "cloud",
+                "copy.com",
+                "dropbox",
+                "file systems",
+                "files",
+                "filesystem",
+                "filesystems",
+                "ftp",
+                "rackspace",
+                "remote",
+                "s3",
+                "sftp",
+                "storage"
+            ],
+            "time": "2019-02-01T08:50:36+00:00"
+        },
+        {
+            "name": "league/flysystem-aws-s3-v3",
+            "version": "1.0.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
+                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/883b02c80ca9cd68cf58a9b4b2185beef24b836b",
+                "reference": "883b02c80ca9cd68cf58a9b4b2185beef24b836b",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.0.0",
+                "league/flysystem": "^1.0.40",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0.1",
+                "phpspec/phpspec": "^2.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\AwsS3v3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for the AWS S3 SDK v3.x",
+            "time": "2019-01-31T15:07:25+00:00"
+        },
+        {
+            "name": "league/flysystem-dropbox",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-dropbox.git",
+                "reference": "939f91ca00d0255d9b3aa313e191480d00f09382"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-dropbox/zipball/939f91ca00d0255d9b3aa313e191480d00f09382",
+                "reference": "939f91ca00d0255d9b3aa313e191480d00f09382",
+                "shasum": ""
+            },
+            "require": {
+                "dropbox/dropbox-sdk": "~1.1",
+                "league/flysystem": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Dropbox\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for Dropbox",
+            "abandoned": "spatie/flysystem-dropbox",
+            "time": "2016-04-25T18:51:39+00:00"
+        },
+        {
+            "name": "league/flysystem-sftp",
+            "version": "1.0.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-sftp.git",
+                "reference": "61bc5a6ade892b5ac81e62b8c21be2c1798acc2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-sftp/zipball/61bc5a6ade892b5ac81e62b8c21be2c1798acc2a",
+                "reference": "61bc5a6ade892b5ac81e62b8c21be2c1798acc2a",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "~1.0",
+                "php": ">=5.6.0",
+                "phpseclib/phpseclib": "~2.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^5.7.25"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\Sftp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for SFTP",
+            "time": "2019-01-07T11:56:21+00:00"
+        },
         {
             "name": "liip/functional-test-bundle",
             "version": "1.10.0",
@@ -10765,6 +9614,137 @@
             "time": "2018-08-10T18:22:42+00:00"
         },
         {
+            "name": "mautic/composer-plugin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mautic/composer-plugin.git",
+                "reference": "27d2474ae8e39d30d28908d6f818e71fe32b8443"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mautic/composer-plugin/zipball/27d2474ae8e39d30d28908d6f818e71fe32b8443",
+                "reference": "27d2474ae8e39d30d28908d6f818e71fe32b8443",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Mautic\\Composer\\InstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mautic\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2017-12-10T22:16:22+00:00"
+        },
+        {
+            "name": "microsoft/bingads",
+            "version": "v0.12.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BingAds/BingAds-PHP-SDK.git",
+                "reference": "dc5c8fb9f9390ab14c102fdff68cb7592091b55c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BingAds/BingAds-PHP-SDK/zipball/dc5c8fb9f9390ab14c102fdff68cb7592091b55c",
+                "reference": "dc5c8fb9f9390ab14c102fdff68cb7592091b55c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "ext-soap": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Microsoft\\BingAds\\": "/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Microsoft",
+                    "homepage": "https://github.com/BingAds/BingAds-PHP-SDK/graphs/contributors"
+                }
+            ],
+            "description": "This project provides a set of PHP client libraries that make it easy to access Bing Ads service APIs.",
+            "homepage": "https://github.com/BingAds/BingAds-PHP-SDK",
+            "keywords": [
+                "bing ads",
+                "bingads",
+                "php",
+                "sdk"
+            ],
+            "time": "2018-12-10T14:28:43+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.8.1",
             "source": {
@@ -10811,6 +9791,300 @@
                 "object graph"
             ],
             "time": "2018-06-11T23:09:50+00:00"
+        },
+        {
+            "name": "namshi/cuzzle",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/namshi/cuzzle.git",
+                "reference": "89849bb9c729a3d8aabf94c0b66e77c7df38abda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/namshi/cuzzle/zipball/89849bb9c729a3d8aabf94c0b66e77c7df38abda",
+                "reference": "89849bb9c729a3d8aabf94c0b66e77c7df38abda",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": ">=5.5.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.2.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Namshi\\Cuzzle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Nefedov",
+                    "email": "inefedor@gmail.com"
+                },
+                {
+                    "name": "cirpo",
+                    "email": "alessandro.cinelli@gmail.com"
+                }
+            ],
+            "description": "Get the cURL shell command from a Guzzle request",
+            "time": "2016-11-23T08:01:36+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-common",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "reference": "21bdeb5f65d7ebf9f43b1b25d404f87deab5bfb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jaap van Otterdijk",
+                    "email": "opensource@ijaap.nl"
+                }
+            ],
+            "description": "Common reflection classes used by phpdocumentor to reflect the code structure",
+            "homepage": "http://www.phpdoc.org",
+            "keywords": [
+                "FQSEN",
+                "phpDocumentor",
+                "phpdoc",
+                "reflection",
+                "static analysis"
+            ],
+            "time": "2017-09-11T18:02:19+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/94fd0001232e47129dd3504189fa1c7225010d08",
+                "reference": "94fd0001232e47129dd3504189fa1c7225010d08",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "phpdocumentor/reflection-common": "^1.0.0",
+                "phpdocumentor/type-resolver": "^0.4.0",
+                "webmozart/assert": "^1.0"
+            },
+            "require-dev": {
+                "doctrine/instantiator": "~1.0.5",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+            "time": "2017-11-30T07:14:17+00:00"
+        },
+        {
+            "name": "phpdocumentor/type-resolver",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "reference": "9c977708995954784726e25d0cd1dddf4e65b0f7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "phpdocumentor/reflection-common": "^1.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^5.2||^4.8.24"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "phpDocumentor\\Reflection\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "me@mikevanriel.com"
+                }
+            ],
+            "time": "2017-07-14T14:27:02+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "2.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/8ebfcadbf30524aeb75b2c446bc2519d5b321478",
+                "reference": "8ebfcadbf30524aeb75b2c446bc2519d5b321478",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpseclib/bootstrap.php"
+                ],
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2019-01-27T19:37:29+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -12102,6 +11376,80 @@
             "time": "2018-09-21T13:07:52+00:00"
         },
         {
+            "name": "symfony/serializer",
+            "version": "v3.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/serializer.git",
+                "reference": "f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad",
+                "reference": "f6c70e2ca70d4d0b4be0ccc0b3c7dfa8672afbad",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "conflict": {
+                "symfony/property-access": ">=3.0,<3.0.4|>=2.8,<2.8.4",
+                "symfony/property-info": "<3.1"
+            },
+            "require-dev": {
+                "doctrine/annotations": "~1.0",
+                "doctrine/cache": "~1.0",
+                "phpdocumentor/reflection-docblock": "~3.0",
+                "symfony/cache": "~3.1",
+                "symfony/config": "~2.8|~3.0",
+                "symfony/http-foundation": "~2.8|~3.0",
+                "symfony/property-access": "~2.8|~3.0",
+                "symfony/property-info": "~3.1",
+                "symfony/yaml": "~2.8|~3.0"
+            },
+            "suggest": {
+                "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
+                "doctrine/cache": "For using the default cached annotation reader and metadata cache.",
+                "psr/cache-implementation": "For using the metadata cache.",
+                "symfony/config": "For using the XML mapping loader.",
+                "symfony/http-foundation": "To use the DataUriNormalizer.",
+                "symfony/property-access": "For using the ObjectNormalizer.",
+                "symfony/property-info": "To deserialize relations.",
+                "symfony/yaml": "For using the default YAML mapping loader."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Serializer\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Serializer Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-01-24T12:51:25+00:00"
+        },
+        {
             "name": "symfony/var-dumper",
             "version": "v3.4.22",
             "source": {
@@ -12230,6 +11578,479 @@
             "time": "2018-11-11T11:18:13+00:00"
         },
         {
+            "name": "thedmsgroup/mautic-api-services-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-api-services.git",
+                "reference": "7cebb2338946c353386841d5e96d0f499998b297"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-api-services/zipball/7cebb2338946c353386841d5e96d0f499998b297",
+                "reference": "7cebb2338946c353386841d5e96d0f499998b297",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Shipman",
+                    "email": "scottshipmang@gmail.com"
+                }
+            ],
+            "description": "Extends Mautic API for configurable service calls.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2018-08-14T12:58:15+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-campaign-watch-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-campaign-watch.git",
+                "reference": "88d894e4b0b2340f45abbb1c8f65f33fc02906aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-campaign-watch/zipball/88d894e4b0b2340f45abbb1c8f65f33fc02906aa",
+                "reference": "88d894e4b0b2340f45abbb1c8f65f33fc02906aa",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Visual improvements for campaigns.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-01-30T21:20:09+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-contact-client-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-contact-client.git",
+                "reference": "26d26d6c73f44bf1dfb8934bdf41b9edf0fcaca8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-client/zipball/26d26d6c73f44bf1dfb8934bdf41b9edf0fcaca8",
+                "reference": "26d26d6c73f44bf1dfb8934bdf41b9edf0fcaca8",
+                "shasum": ""
+            },
+            "require": {
+                "league/flysystem": "^1.0",
+                "league/flysystem-aws-s3-v3": "^1.0",
+                "league/flysystem-dropbox": "^1.0",
+                "league/flysystem-sftp": "^1.0",
+                "mautic/composer-plugin": "^1.0",
+                "mustache/mustache": "^2.12",
+                "namshi/cuzzle": "^2.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Create custom integrations without writing code.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-02-05T14:43:28+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-contact-ledger-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-contact-ledger.git",
+                "reference": "20748077e62f737757ce74720e8e3bb5a19e8a58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-ledger/zipball/20748077e62f737757ce74720e8e3bb5a19e8a58",
+                "reference": "20748077e62f737757ce74720e8e3bb5a19e8a58",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Nicholai Bush",
+                    "email": "nicholaibush@yahoo.com"
+                }
+            ],
+            "description": "Historical accounting for contacts",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-01-30T21:35:42+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-contact-source-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-contact-source.git",
+                "reference": "d6361794ba401779a73fe5e4427b65e1f7616c2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-contact-source/zipball/d6361794ba401779a73fe5e4427b65e1f7616c2c",
+                "reference": "d6361794ba401779a73fe5e4427b65e1f7616c2c",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Creates API endpoints for receiving contacts from external sources.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-02-05T14:44:16+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-dashboard-warm-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-dashboard-warm.git",
+                "reference": "75e0558192f478127d4080099042eff1e0297557"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-dashboard-warm/zipball/75e0558192f478127d4080099042eff1e0297557",
+                "reference": "75e0558192f478127d4080099042eff1e0297557",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Improves the performance of the dashboard by sharing/extending/warming caches.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2018-11-27T17:35:44+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-enhancer-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-enhancer.git",
+                "reference": "73a9f97e111cfa4295afe6976f6eb547b9689067"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-enhancer/zipball/73a9f97e111cfa4295afe6976f6eb547b9689067",
+                "reference": "73a9f97e111cfa4295afe6976f6eb547b9689067",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "league/flysystem": "^1.0",
+                "league/flysystem-sftp": "^1.0",
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Nicholai Bush",
+                    "email": "nicholaibush@yahoo.com"
+                },
+                {
+                    "name": "Scott Shipman",
+                    "email": "K.scott.shipman@gmail.com"
+                }
+            ],
+            "description": "Various contact enhancer integrations for Mautic.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2018-12-19T15:46:14+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-extended-field-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-extended-field.git",
+                "reference": "9e2a4826a81eecaa2cb87d0650426b5eec5740e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-extended-field/zipball/9e2a4826a81eecaa2cb87d0650426b5eec5740e2",
+                "reference": "9e2a4826a81eecaa2cb87d0650426b5eec5740e2",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                },
+                {
+                    "name": "Nicholai Bush",
+                    "email": "nicholaibush@yahoo.com"
+                },
+                {
+                    "name": "Scott Shipman",
+                    "email": "K.scott.shipman@gmail.com"
+                }
+            ],
+            "description": "Extends custom fields for scalability and HIPAA/PCI compliance.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-01-30T22:07:54+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-health-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-health.git",
+                "reference": "b5a861427dfd89262d1078e348212c286e417596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-health/zipball/b5a861427dfd89262d1078e348212c286e417596",
+                "reference": "b5a861427dfd89262d1078e348212c286e417596",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Checks the health of the Mautic instance.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2018-10-04T19:14:14+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-media-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-media.git",
+                "reference": "3c7b99dfaef817bdd941ae4e45c67621cc6dc790"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-media/zipball/3c7b99dfaef817bdd941ae4e45c67621cc6dc790",
+                "reference": "3c7b99dfaef817bdd941ae4e45c67621cc6dc790",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-soap": "*",
+                "facebook/php-business-sdk": "^3.2",
+                "googleads/googleads-php-lib": "^38.0",
+                "mautic/composer-plugin": "^1.0",
+                "microsoft/bingads": "v0.12.0.2"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Dutton",
+                    "email": "heathdutton@gmail.com"
+                }
+            ],
+            "description": "Pulls cost data from media advertising services.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-02-01T20:04:52+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-segment-extras-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-segment-extras.git",
+                "reference": "8720a396670849b3bc93af8daa53106b05f814ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-segment-extras/zipball/8720a396670849b3bc93af8daa53106b05f814ce",
+                "reference": "8720a396670849b3bc93af8daa53106b05f814ce",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Shipman",
+                    "email": "scottshipmang@gmail.com"
+                }
+            ],
+            "description": "Extends Mautic Lead Bundle's Lead List (Segment) functionality.",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2019-01-23T18:12:21+00:00"
+        },
+        {
+            "name": "thedmsgroup/mautic-usstate-normalizer-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheDMSGroup/mautic-usstate-normalizer.git",
+                "reference": "fe46346ed597146ac9aadb86dfadbe115bbef2d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheDMSGroup/mautic-usstate-normalizer/zipball/fe46346ed597146ac9aadb86dfadbe115bbef2d6",
+                "reference": "fe46346ed597146ac9aadb86dfadbe115bbef2d6",
+                "shasum": ""
+            },
+            "require": {
+                "mautic/composer-plugin": "^1.0"
+            },
+            "type": "mautic-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Nicholai Bush",
+                    "email": "nicholaibush@yahoo.com"
+                }
+            ],
+            "description": "Normalize US States to their abbreviations",
+            "keywords": [
+                "Marketing Automation",
+                "Mautic",
+                "marketing",
+                "plugin"
+            ],
+            "time": "2018-07-26T19:02:53+00:00"
+        },
+        {
             "name": "webfactory/exceptions-bundle",
             "version": "4.4.0",
             "source": {
@@ -12271,37 +12092,68 @@
             "description": "Building blocks for more user-friendly error pages, plus a simple controller to display error pages during development (helpful prior to Symfony 2.6.3)",
             "homepage": "https://www.webfactory.de/blog/symfony2-exception-handling-and-custom-error-pages-explained",
             "time": "2018-10-01T15:25:51+00:00"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozart/assert.git",
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "sebastian/version": "^1.0.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "time": "2018-12-25T11:19:39+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mautic/core": 20,
-        "thedmsgroup/mautic-eb-custom": 20,
-        "thedmsgroup/mautic-extended-field-bundle": 20,
-        "thedmsgroup/mautic-contact-client-bundle": 20,
-        "thedmsgroup/mautic-contact-ledger-bundle": 20,
-        "thedmsgroup/mautic-contact-source-bundle": 20,
-        "thedmsgroup/mautic-enhancer-bundle": 20,
-        "thedmsgroup/mautic-usstate-normalizer-bundle": 20,
-        "thedmsgroup/mautic-health-bundle": 20,
-        "thedmsgroup/mautic-api-services-bundle": 20,
-        "thedmsgroup/mautic-campaign-watch-bundle": 20,
-        "thedmsgroup/mautic-dashboard-warm-bundle": 20,
-        "thedmsgroup/mautic-segment-extras-bundle": 20,
-        "thedmsgroup/mautic-media-bundle": 20,
-        "thedmsgroup/mautic-do-not-contact-extras-bundle": 20,
-        "thedmsgroup/mautic-revenue-event-bundle": 20
+        "mautic/core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6.19 <7.3",
-        "ext-curl": "*",
-        "ext-dom": "*",
-        "ext-json": "*",
-        "ext-simplexml": "*",
-        "ext-soap": "*"
+        "php": ">=5.6.19 <7.3"
     },
     "platform-dev": []
 }

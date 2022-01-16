@@ -4,7 +4,7 @@
   "description": "Mautic Open Source Distribution - Modified for scalability",
   "license": "GPL-3.0-only",
   "require": {
-    "mautic/core": "dev-master#6d201acec18815ba274130e9ad8d34d1ae3bf5ce",
+    "mautic/core": "4.1.1",
     "aws/aws-sdk-php": "3.36",
     "twig/twig": "v1.35.0"
   },
@@ -14,11 +14,11 @@
       "package": {
         "type": "library",
         "name": "mautic/core",
-        "version": "dev-master",
+        "version": "4.1.1",
         "source": {
           "type": "git",
           "url": "https://github.com/mautic/mautic.git",
-          "reference": "master"
+          "reference": "4.1.1"
         },
         "require": {
           "mnsami/composer-custom-directory-installer": "1.1.*",
@@ -138,7 +138,10 @@
     "vendor-dir": "./vendor",
     "bin-dir": "./bin",
     "optimize-autoloader": true,
-    "discard-changes": true
+    "discard-changes": true,
+	"platform": {
+        "php": "7.4.13"
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
